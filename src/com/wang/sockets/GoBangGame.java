@@ -20,7 +20,7 @@ public class GoBangGame {
     private static String lastUser;
     private static int count = 0;
     private int[][] oriData = new int[15][25];
-    
+    private int key = 0;
     /*
      * 连接成功时触发
      */
